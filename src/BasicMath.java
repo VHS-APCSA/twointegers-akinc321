@@ -25,5 +25,29 @@ public class BasicMath
 		{
 			System.out.println(num2 + " is larger.");
 		}
+		if(num1 % 2 == 0)
+		{
+			System.out.println(num1 + " is even.");
+		}
+		else
+		{
+			System.out.println(num1 + " is odd");
+		}
+		if(num2 % 2 == 0)
+		{
+			System.out.println(num2 + " is even.");
+		}
+		else
+		{
+			System.out.println(num2 + " is odd.");
+		}
+		if(num1 % num2 == 0)
+		{
+			System.out.println(num1 + " is a multiple of " + num2 + ".");
+		}
+		else
+		{
+			System.out.println(num1 + " is not a multiple of " + num2 + ".");
+		}
 	}
 }
